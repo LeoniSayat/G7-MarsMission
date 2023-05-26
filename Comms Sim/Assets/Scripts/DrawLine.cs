@@ -11,7 +11,7 @@ public class DrawLine : MonoBehaviour
     public Transform origin;
     public Transform destination;
 
-    public float lineDrawSpeed = 1000f;
+    public float lineDrawSpeed = 3000f;
 
     // Watchers
     public Vector3 startpos;

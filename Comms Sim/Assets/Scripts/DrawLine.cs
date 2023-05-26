@@ -48,4 +48,8 @@ public class DrawLine : MonoBehaviour
             lineRenderer.SetPosition(1, pointAlongLine);
         }
     }
+
+    public float getDistance(){
+        return dist;
+    }
 }

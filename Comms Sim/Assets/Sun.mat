@@ -38,7 +38,7 @@ Material:
     - _CellSpeed: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SolarFlare: 82.6
+    - _SolarFlare: 40.41
     m_Colors:
     - _BaseColor: {r: 0.7476045, g: 0.5370592, b: 0.08816089, a: 0}
     - _Color: {r: 1, g: 0.2201755, b: 0, a: 0}

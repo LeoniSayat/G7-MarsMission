@@ -46,6 +46,9 @@ public class DrawLine : MonoBehaviour
             Vector3 pointAlongLine = x * Vector3.Normalize(pointB - pointA) + pointA;
 
             lineRenderer.SetPosition(1, pointAlongLine);
+            if (pointAlongLine == Vector3.zero){
+                Debug.Log("hi");
+            }
         }
     }
 
